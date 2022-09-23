@@ -14,7 +14,14 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-
+	"@AuraEnabled Property": {
+		"prefix": "@apa",
+		"body": [
+			"@AuraEnabled",
+			"public ${1:type} ${2:name} { get; set; }$0",
+		],
+		"description": "@AuraEnabled property with automatic accessors",
+	},
 	"@InvocableVariable": {
 		"prefix": "@iv",
 		"body": [
