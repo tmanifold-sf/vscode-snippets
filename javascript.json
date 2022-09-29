@@ -16,8 +16,8 @@
 	"() => {}": {
 		"prefix": "afn",
 		"body": [
-			"const ${1:name} = (${2:params} => {",
-			"\t:0",
+			"const ${1:name} = (${2:params}) => {",
+			"\t$0",
 			"}",
 		],
 		"description": "An arrow function"
