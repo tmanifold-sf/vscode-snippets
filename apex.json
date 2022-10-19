@@ -49,5 +49,12 @@
 			"}"
 		],
 		"description": "iterate through a map",
+	},
+	"today": {
+		"prefix": "today",
+		"body": [
+			"System.today()${0}"
+		],
+		"description": "Date System.today()",
 	}
 }
